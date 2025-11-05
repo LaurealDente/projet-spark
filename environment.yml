@@ -1,0 +1,19 @@
+name: spark-fraud-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - openjdk
+  - pyspark
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - seaborn
+  - plotly
+  - pip
+  - pip:
+    - pydantic
+    - python-dotenv
