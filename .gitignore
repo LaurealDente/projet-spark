@@ -1,0 +1,39 @@
+# Données volumineuses
+data/raw/*
+data/processed/*
+!data/README.md
+!data/.gitkeep
+
+# Modèles entraînés
+models/trained_models/*
+!models/.gitkeep
+
+# Fichiers Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environnement Python
+venv/
+env/
+.conda/
+
+# Fichiers système
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+slurm-*.out
+spark_job_*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
