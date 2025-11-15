@@ -4,8 +4,8 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - openjdk
-  - pyspark
+  - openjdk=11
+  - pyspark=3.4.1
   - pandas
   - numpy
   - scikit-learn

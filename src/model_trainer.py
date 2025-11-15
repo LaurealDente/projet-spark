@@ -21,8 +21,7 @@ def train_model(train_df, test_df, use_tuning=False):
         labelCol=LABEL_COL,
         numTrees=50,
         maxDepth=10,
-        seed=RANDOM_SEED,
-        numPartitions=100
+        seed=RANDOM_SEED
     )
     
     # Pipeline complet

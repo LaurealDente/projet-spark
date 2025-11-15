@@ -17,6 +17,10 @@ services:
       - ./data:/opt/workspace/data
       - ./apps:/opt/workspace/apps
       - ./logs:/opt/workspace/logs
+      - ./src:/opt/workspace/src
+      - ./results:/opt/workspace/results
+      - ./models:/opt/workspace/models
+
     environment:
       SPARK_WORKLOAD: master
       SPARK_MASTER_HOST: spark-master
@@ -40,6 +44,8 @@ services:
       - ./data:/opt/workspace/data
       - ./apps:/opt/workspace/apps
       - ./logs:/opt/workspace/logs
+      - ./results:/opt/workspace/results
+      - ./models:/opt/workspace/models
     environment:
       SPARK_WORKLOAD: worker
       SPARK_MASTER: spark://spark-master:7077
@@ -64,6 +70,8 @@ services:
       - ./data:/opt/workspace/data
       - ./apps:/opt/workspace/apps
       - ./logs:/opt/workspace/logs
+      - ./results:/opt/workspace/results
+      - ./models:/opt/workspace/models
     environment:
       SPARK_WORKLOAD: worker
       SPARK_MASTER: spark://spark-master:7077
@@ -88,6 +96,8 @@ services:
       - ./data:/opt/workspace/data
       - ./apps:/opt/workspace/apps
       - ./logs:/opt/workspace/logs
+      - ./results:/opt/workspace/results
+      - ./models:/opt/workspace/models
     environment:
       SPARK_WORKLOAD: worker
       SPARK_MASTER: spark://spark-master:7077

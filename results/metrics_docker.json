@@ -1,0 +1,9 @@
+{
+    "auc_roc": 0.9699030811486791,
+    "auc_pr": 0.8380372938207473,
+    "precision": 0.922077922077922,
+    "recall": 0.7717391304347826,
+    "f1": 0.8402366863905326,
+    "total_execution_time_seconds": 51.26,
+    "training_time_seconds": 20.76
+}

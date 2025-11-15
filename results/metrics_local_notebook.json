@@ -1,0 +1,10 @@
+{
+    "accuracy": 0.99950671223706,
+    "precision": 0.9994846689051192,
+    "recall": 0.99950671223706,
+    "f1_score": 0.9994864308502165,
+    "areaUnderROC": 0.976905962053383,
+    "areaUnderPR": 0.8383663548962902,
+    "total_execution_time_seconds": 79.25,
+    "training_time_seconds": 13.1
+}
